@@ -1,0 +1,25 @@
+.section {background:url(../img/BG2.png)}
+
+.section .container {display:flex; width:1200px; margin:0 auto; }
+
+.section .container .txt{padding-top:50px;}
+
+.section .container h3 {font-size:40px; font-weight:700; margin-bottom:40px;opacity:0; transform:translateY(100px); }
+.section .container p {font-size:14px; font-weight:300; opacity:0; transform:translateY(100px); }
+
+.section.on .container h3 {opacity:1; transform:translateY(0); transition:1s;}
+.section.on .container p {opacity:1; transform:translateY(0); transition:1s 0.5s;}
+
+
+.section .container>div { flex:1; padding:0 30px;}
+.section .container figure {width:400px; height:400px; border-radius:50%; overflow:hidden;  margin:0 auto;transform: scale(0);}
+.section.on .container figure {transform: scale(1); transition: 0.5s 1.5s;}
+
+.section .container .img {position: relative;}
+.section .container .img:before {content:""; display:block; width:200px; height:200px; border-radius:50%;
+background:rgba(255,0,0,0.5); position: absolute; top:0; left:0; opacity:0; transform:scale(0); }
+.section .container .img:after {content:""; display:block; width:100px; height:100px; border-radius:50%;
+background:rgba(255,255,0,0.5); position:absolute; bottom:0; right:0; opacity:0; transform:scale(0); }
+
+.section.on .container .img:before {opacity:1; transform:scale(1); transition:0.2s 1s; }
+.section.on .container .img:after { opacity:1; transform:scale(1); transition:0.2s 1.2s;}
