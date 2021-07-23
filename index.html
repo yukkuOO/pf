@@ -4,166 +4,340 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 검색할 때 뜨는 이름(title) 그 밑에 상세설명(description)-->
-    <meta name="title" content="yukku's portfolio 2021">
-    <meta name="description" content="2021 박유경 디자인 포트폴리오">
-
-    <title>yukku's portfolio 2021</title>
-    <!--파비콘 (타이틀 옆에 아이콘)-->
-    <link rel="shorcut icon" href="./main/favicon.png">
-
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/fullpage.css"><!--풀페이지 css-->
-    <link rel="stylesheet" href="./assets/css/slick.css">
-    <link rel="stylesheet" href="./assets/css/jquery.mb.YTPlayer.min.css">
-    <link rel="stylesheet" href="./assets/css/aos.css"><!--https://michalsnik.github.io/aos/ 스크롤반응,,-->
-    <link rel="stylesheet" href="./assets/css/animate.min.css"><!--https://animate.style/ 애니메이션-->
-    <link rel="stylesheet" href="./main/portfolio.css">
-    <script src="./assets/js/jquery-1.12.4.js"></script>
-    <script src="./assets/js/fullpage.js"></script><!--풀페이지 js-->
-    <script src="./assets/js/slick.min.js"></script>
-    <script src="./assets/js/jquery.mb.YTPlayer.min.js"></script>
-    <script src="./assets/js/aos.js"></script>
-    <script src="./main/portfolio.js"></script>
+    <title>박유경_웹포트폴리오_이삭토스트</title>
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/slick.css">
+    <link rel="stylesheet" href="../assets/css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="../assets/js/jquery-1.12.4.js"></script>
+    <script src="../assets/js/slick.min.js"></script>
+    <script src="../assets/js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="./js/main.js"></script>
 </head>
 
 
 <body>
-    <header>
-        <h1><a href="index.html">Yukku's PORTFOLIO 2021</a></h1>
+    <header id="header">
+        
+        <div class="container">
+            <h1><a href="#!"><img src="./img/logo.svg" alt=""></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#!">메뉴</a></li>
+                    <li><a href="#!">창업정보</a></li>
+                    <li><a href="#!">브랜드</a></li>
+                    <li><a href="#!">이삭스토어</a></li>
+                    <li><a href="#!">이삭소식</a></li>
+                </ul>
+            </nav>
+        </div>
 
     </header>
-    <nav>
-        <ul>
-            <li> <a href="#xm01">m01</a></li>
-            <li> <a href="#xm02">m02</a></li>
-            <li> <a href="#xm03">m03</a></li>
-            <li> <a href="#xm04">m04</a></li>
-            <li> <a href="#xm05">m05</a></li>
-        </ul>
-    </nav>
-    <div id="main">
-        <section class="section m01">
-            <!--
-            <div class="video_case">
-                  <video class="m01_video" src="main/mov01.mp4" autoplay muted palysinline loop data-keepplaying></video>
+
+
+    <section id="visual">
+        <div class="main_slider">
+            <figure class="main_item01"></figure>
+            <figure class="main_item02"></figure>
+            
+            <figure class="main_item03">
+            <div class="txt">
+                    <h3>Enjoy Sweet <br>
+                    Moments</h3>
+                <p>포장주문, 스마트 주문으로 <br>
+                    더욱더 편하고 안전하게 즐기세요</p>
+                <a href="#!">자세히 보기 <i class="xi-arrow-right"></i></a>
             </div>
-              -->
-            <div class ="txt">
-                <h2>Yukku's PORTFOLIO 2021</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>
-                     Ratione, maxime?<br><br>
-                     <!--<i class="xi-pause"></i><i class="xi-play"></i>-->
-                    </p>
+            </figure>
+            
+        </div>
+    </section>
+
+
+    <section id="content01">
+        <div class="quick_m">
+            <nav class="menu">
+                <ul>
+                    <li><i class="xi-restaurant"></i>주문하기</li>
+                    <li><i class="xi-heart"></i>선물하기</li>
+                    <li><i class="xi-shop"></i>가맹점찾기</li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section id="content02">
+        <div class ="ad_video">
+            <div class="txt">
+                <h3>매드몬스터 <span>PICK!</span></h3>
+                <p>월드스타 매드몬스터가 사랑한 이삭토스트</p>
+            </div>
+            <figure class="mmmov">
+                <iframe width="1200" height="700" src="https://www.youtube.com/embed/YK_mUdOfcqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </figure>
+        </div>
+    </section>
+    <section id="content03">
+        <div class="best">
+            <div class="txt">
+                <h3>BEST</h3>
+                <p>이삭토스트 베스트셀러</p>
+            </div>
+            <div class="best_img">
+                <figure class="container">
+                 <div class="case">
+                      <img src="./img/1-14.png" alt="">
+                 </div>
+                 <div class="litxt">
+                    <strong>햄치즈</strong>
+                    <span>Ham cheese Toast</span>
+                    <p>달콤한 이삭 소스가 발린 토스트에 신선한 계란과 <br>옥수수가 들어간 햄 & 치즈를 올린 이삭 대표메뉴</p> 
+                 </div>
+
+
+                </figure>
+                <figure class="container">
+                    <div class="case">
+                        <img src="./img/1-13.png" alt="">
+                    </div>
+
+                 <div class="litxt">
+                     <strong>햄 스페셜</strong>
+                     <span>Ham special Toast</span>
+                     <p>햄치즈 토스트에 프레쉬한 <br>양배추를 추가한 토스트</p> 
+ 
+                 </div>
+                    
+                </figure>
+                <figure class="container">
+                    <div class="case">
+                        <img src="./img/1-7.png" alt="">
+                    </div>
+                    <div class="litxt">
+                        <strong>베이컨 베스트</strong>
+                        <span>Bacon best Toast</span>
+                        <p>달콤한 이삭 소스가 발린 토스트에<br> 베이컨, 치즈, 양배추 등을 올린 인기 토스트</p> 
+    
+                    </div>
+                </figure>
+            </div>
+            
+        </div>
+    </section>
+    <section id="content04">
+        <div class="container">
+            <div class="txt">
+                <h3>TOAST</h3>
+                <p>18년차 대한민국 토종 브랜드, 800여 개 매장을 가진
+                    대한민국 NO.1 토스트 브랜드 이삭토스트</p>
+            </div>
+            <div class="toast_img">
+                <figure class="case">
+                    <img src="./img/1-11.png" alt="">
+                    <div class="li2txt">
+                        <strong>트리플 소세지</strong>
+                        <span>Triple Sausage Toast</span>
+                        <p>트리플 소세지, 치즈, 양배추를 올리고 머스터드 소스로 맛을 더한 토스트</p>
+                    </div>
+                </figure>
+                <figure class="case">
+                    <img src="./img/1-3.png" alt="">
+                    <div class="li2txt">
+                        <strong>더블치즈 리챔</strong>
+                        <span>Double cheese Richam</span>
+                        <p>핫치폴레 리챔과 딥치즈 소스의 만남!리챔과 두번째 콜라보 메뉴</p>
+                        <h6>맫몬 PICK!</h6>
+                    </div>
+                </figure>
+                <figure class="case">
+                    <img src="./img/1-5.png" alt="">
+                    <div class="li2txt">
+                        <strong>딥치즈 베이컨 포테이토</strong>
+                        <span>Deep Cheese Bacon Potato Toast</span>
+                        <p>딥치즈와 베이컨과 해쉬 포테이토의 <br>풍성한 조화를 이룬 이삭의 인기 메뉴 토스트</p>
+                    </div>
+                </figure>
+                <figure class="case">
+                    <img src="./img/1-6.png" alt="">
+                    <div class="li2txt">
+                        <strong>맵달맵달 리챔</strong>
+                        <span>Spicy & sweet Richam Toast</span>
+                        <p>리챔과 핫스모크 소스가 더해져 맛있는 것들의 맵달맵달한 콜라보 토스트</p>
+                    </div>
+                </figure>
+                <figure class="case">
+                    <img src="./img/1-8.png" alt="">
+                    <div class="li2txt">
+                        <strong>베이컨 포테이토 피자</strong>
+                        <span>Bacon Potato Pizza Toast</span>
+                        <p>쫄깃한 모짜렐라 치즈, 해쉬 포테이토와 베이컨의 만남! 이삭의 프리미엄 메뉴</p>
+                    </div>
+                </figure>
+                <figure class="case">
+                    <img src="./img/1-9.png" alt="">
+                    <div class="li2txt">
+                        <strong>새우</strong>
+                        <span>Shrimp Toast</span>
+                        <p>통새우 커틀릿, 치즈, 피클, 양배추를 올리고 머스터드 소스로 맛을 더한 토스트</p>
+                    </div>
+                </figure>
+                <figure class="case">
+                    <img src="./img/1-13.png" alt="">
+                    <div class="li2txt">
+                        <strong>핫치킨 mvp</strong>
+                        <span>Hot chicken Toast</span>
+                        <p>매콤한 핫치킨 패티, 치즈, 피클, 양배추를 올리고 칠리 & 머스터드 소스로 맛을 낸 토스트</p>
+                    </div>
+                </figure>
             </div>
 
-        </section>
-        <section class="section m02 pf01">
-            <div class="container">
-                <figure>
-                    <video src="main/mov02.mp4"   palysinline loop data-keepplaying poster="main/mov02-thum.png"></video>
-                    <img src="./main/mockup3.png" alt="mockup">
-                </figure>
-                <div class="txt">
-                    <h2>PORTFOLIO I</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat quia laboriosam consequatur voluptate quaerat quam cum ipsa laborum, velit quae?
-                        <br><br><i class="xi-pause"></i><i class="xi-play"></i>
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="section m03 pf02">
-            <div class="container">
-                <figure>
-                    <video src="main/mov03.mp4" palysinline loop data-keepplaying ></video>
-                    <img src="./main/mockup4-1.png" alt="mockup">
-                </figure>
-                <div class="txt">
-                    <h2>PORTFOLIO I</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat quia laboriosam consequatur voluptate quaerat quam cum ipsa laborum, velit quae?
-                        <br><br><i class="xi-pause"></i><i class="xi-play"></i>
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="section m04 pf03">
-            <div class="artworkli">
-                <figure class="artwork">
-                    <img src="./main/1-1.png" alt=""><a href="#!"></a>
-                </figure>
-                <figure class="artwork">
-                    <img src="./main/1-2.png" alt=""><a href="#!"></a>
-                </figure>
-                <figure class="artwork">
-                    <img src="./main/1-3.png" alt=""><a href="#!"></a>
-                </figure>
-                <figure class="artwork">
-                    <img src="./main/1-1.png" alt=""><a href="#!"></a>
-                </figure>
-                <figure class="artwork">
-                    <img src="./main/1-2.png" alt=""><a href="#!"></a>
-                </figure>
-                <figure class="artwork">
-                    <img src="./main/1-3.png" alt=""><a href="#!"></a>
-                </figure>
-  
-            </div>
             <div class="arr">
                 <i class="xi-angle-left"></i>
                 <i class="xi-angle-right"></i>
             </div>
-
-        </section>
-        <section class="section m05 info  fp-auto-height">
-            <div class="container">
-                <div class="txt">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-                     Nam magnam necessitatibus temporibus vero accusantium omnis, voluptatem laudantium neque similique ipsum!
-                </div>
-                <figure>
-                    <img src="main/face.jpg" alt="my face">
-                </figure>
-            </div>
-        </section>
-
-
-
-    </div>
-    <footer>
-        <!-- <a href="tel:010-5622-3280"> 모바일에서 전화 바로 걸기 -->
-        &copy; Yukku  <a href="tel:010-5622-3280">  010-5622-3280.</a> <br class="mbr">
-        email: <a href="mailto:dbrud3003@naver.com"></a>dbrud3003@naver.com
-    </footer>
-
-    <div id ="mopen">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-    <div id ="cover_nav">
+        </div>
+    </section>
+    <section id="content05">
         <div class="container">
-            <figure>
-                <img src="main/face.jpg" alt="my face">
-            </figure>
             <div class="txt">
-                <div class="profile">
-                    <h3>PROFILE</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur vero corrupti fugiat dignissimos, eaque a.
-                    </p>
+                <h3>COFFEE & TEA</h3>
+                <p>100% 아라비카 원두로 내린 더블샷 커피</p>
             </div>
-
-            <hr>
-            <ul class ="link">
-                 <!--<li> <a href="#xm01">intro</a></li>-->
-                 <li> <a href="#xm02"></i> portfolio 01</a></li>
-                 <li> <a href="#xm03">portfolio 02</a></li>
-                <li> <a href="#xm04">portfolio 03</a></li>
-                <li> <a href="#xm05">portfolio 04</a></li>
-            </ul>
+            <div class="beverage_img">
+                <figure class="case">
+                    <img src="./img/2-1.png" alt="">
+                    <div class="li3txt">
+                        <strong>녹차</strong>
+                        <span>Green tea</span>
+                        <p>우리 땅, 한국의 맛, 보성 녹차</p>
+                    </div>
+                </figure>
+                <figure class="case">
+                    <img src="./img/2-2.png" alt="">
+                    <div class="li3txt">
+                        <strong>바닐라 라떼</strong>
+                        <span>Vanilla latte</span>
+                        <p>아라비카 100% 에스프레소 2 shot,신선한 우유 & 바닐라 향이 가득한 라떼</p>
+                    </div>
+                </figure>
+                <figure class="case">
+                    <img src="./img/2-3.png" alt="">
+                    <div class="li3txt">
+                        <strong>아메리카노</strong>
+                        <span>Americano</span>
+                        <p>아라비카 100% 원두로 추출한 에스프레소 2shot을 넣어 만든 신선한 아메리카노</p>
+                    </div>
+                </figure>
+                <figure class="case">
+                    <img src="./img/2-4.png" alt="">
+                    <div class="li3txt">
+                        <strong>얼그레이</strong>
+                        <span>Earl grey</span>
+                        <p>우아하게 홍차 한잔, 부드러운 향기가 가득한 얼그레이</p>
+                    </div>
+                </figure>
+                <figure class="case">
+                    <img src="./img/2-6.png" alt="">
+                    <div class="li3txt">
+                        <strong>카페라떼</strong>
+                        <span>Cafe latte</span>
+                        <p>아라비카 100% 원두로 추출한 에스프레소 2 Shot, 스팀밀크 or 신선한 우유를 넣어 부드러운 라떼</p>
+                    </div>
+                </figure>
+                <figure class="case">
+                    <img src="./img/2-5.png" alt="">
+                    <div class="li3txt">
+                        <strong>에스프레소</strong>
+                        <span>Espresso</span>
+                        <p>아라비카 100% 생두를 직접 로스팅한 원두 추출, 신선하고 깊은 풍미가 살아있는 에스프레소</p>
+                    </div>
+                </figure>
+                <figure class="case">
+                    <img src="./img/2-7.png" alt="">
+                    <div class="li3txt">
+                        <strong>카페모카</strong>
+                        <span>Cafe macha</span>
+                        <p>아라비카 100% 원두로 추출한 에스프레소 2 shot, 신선한 우유, 달콤한 초콜릿 풍미 가득한 카페모카</p>
+                    </div>
+                </figure>
+                <figure class="case">
+                    <img src="./img/2-8.png" alt="">
+                    <div class="li3txt">
+                        <strong>카라멜 라떼</strong>
+                        <span>Caramel Latte</span>
+                        <p>달콤한 휴식이 필요할 때, 아라비카 100% 카라멜 라떼</p>
+                    </div>
+                </figure>
+              
+            </div>
+            <div class ="arr">
+                <i class="xi-angle-left"></i>
+                <i class="xi-angle-right"></i>
             </div>
         </div>
-    </div>
-
+        
+    </section>
+    <section id="content06">
+        <div class="container">
+            <div class="txt">
+                <h3>ISAAC Community</h3>
+            </div>
+            <nav class= "commenu">
+                <ul>
+                    <li>
+                        <strong>뉴스공지</strong>
+                        <p>[뉴스공지]이삭토스트, 허경환 허닭과 전략적 업무협약 체결</p>
+                        <span>2021.06.30</span>
+                        <a href="#!"><i class="xi-plus"></i></a>
+                    </li>
+                    <li>
+                        <strong>뉴스공지</strong>
+                        <p>[뉴스공지]이삭토스트, 허경환 허닭과 전략적 업무협약 체결</p>
+                        <span>2021.06.30</span>
+                        <a href="#!"><i class="xi-plus"></i></a>
+                    </li>
+                    <li>
+                        <strong>뉴스공지</strong>
+                        <p>[뉴스공지]이삭토스트, 2021 한국우수브랜드평가대상 수상</p>
+                        <span>2021.06.30</span>
+                        <a href="#!"><i class="xi-plus"></i></a>
+                    </li>
+                    <li>
+                        <strong>뉴스공지</strong>
+                        <p>[뉴스공지]이삭토스트, 네이버해피빈 통해 기부금 공약 이행</p>
+                        <span>2021.06.30</span>
+                        <a href="#!"><i class="xi-plus"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="foot">
+                <figure class= "footimg">
+                    <img src="./img/footlogo.svg" alt="">
+                </figure>
+                <nav class="footlist">
+                    <ul>
+                        <li><a href="#!">회사소개</a></li>
+                        <li><a href="#!">제휴/제안</a></li>
+                        <li><a href="#!">고객의 소리</a></li>
+                        <li><a href="#!">이용약관</a></li>
+                        <li><a href="#!">개인정보처리방침</a></li>
+                        <li><a href="#!">이메일무단수집거부</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+            <div class="adress">
+                <p>서울사업본부 : 서울시 송파구 중대로 97 효원빌딩 6층 13층 TEL : 02.6959.1086<br>
+                    대전사무실 : 대전광역시 중구 산서로 53번길 11 TEL : 042.274.3060<br>
+                    대구사무실 : 대구광역시 수성구 동대구로 376 범어숲화성파크드림S 상가 225호 TEL : 053.746.3060</p>
+            </div>
+        </div>
+    </footer>
+  
+    <!--<div style="height:200vh;background:#333; color:#fff;">공갈</div>
+    -->
 </body>
 </html>
