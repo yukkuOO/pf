@@ -1,0 +1,28 @@
+/* 웹폰트- 구글 웹폰트(무조건 noto sans) 사이트: https://fonts.google.com/?subset=korean 폰트두께(n00):134579 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+
+/* 웹아이콘- xeicon 사이트: https://xpressengine.github.io/XEIcon/started.html */
+/* 웹아이콘- xeicon 라이브러리사이트:https://xpressengine.github.io/XEIcon/library-2.3.3.html*/
+
+@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+
+body {font-family: 'Noto Sans KR', sans-serif; line-height:1; }
+
+/* inherit은 html의 원래 폰트크기에 상속될 것을 명령*/
+* { margin:0; padding:0; font-size: inherit; font-weight:inherit; box-sizing:border-box;}
+
+/* 리스트에 점 없애기*/
+ul {list-style:none;}
+/* 리스트에 숫자 없애기*/
+ol {list-style:none;}
+
+/* 링크된 텍스트 밑줄과 색상 바꾸기*/
+a {text-decoration:none; color:inherit;}
+
+/*이미지 밑에 빈칸 없애기*/
+img {vertical-align:middle;}
+
+/* 시멘틱태그가 적용되지 않는 사이트에서 박스가 되게 하는 법*/
+header,nav,section,main,aside,article,footer {display:block;}
