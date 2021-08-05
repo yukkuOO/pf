@@ -192,17 +192,20 @@ footer .mbr {display:none;}
 #cover_nav { position:fixed; top:0; right:0; background:rgb(255, 223, 210); width:100%; height:0; z-index:1000; overflow:hidden; transition:0.5s;}
 #cover_nav.on {height:100vh;}
 
-#cover_nav .container {display:flex; position:absolute; top:50%; left:50%; width:1200px; transform:translate(-50%,-50%);}
-#cover_nav .container>* {flex:1; padding:0 40px;}
+#cover_nav .container { position:absolute; top:50%; left:50%; width:1200px; transform:translate(-50%,-50%);}
+#cover_nav .container>* { padding:0 40px;}
 
-#cover_nav img {border-radius:50%; overflow:hidden;}
+#cover_nav img {border-radius:50%; overflow:hidden; width:340px;}
 
-#cover_nav .txt {margin:100px 0;}
-#cover_nav hr {margin:50px 0; border:none; border-top:1px dotted #ddd;}
+#cover_nav .txt {margin:30px 0;}
+/*#cover_nav hr {margin:50px 0; border:none; border-top:1px dotted #ddd;}*/
 
-#cover_nav .info {line-height: 1.25;font-size:16px; }
+#cover_nav .info {line-height: 1.5;font-size:20px; }
 #cover_nav .info strong {font-weight:700;font-size:20px;}
 #cover_nav .info li {font-weight: 300; }
+
+
+
 
 
 .info>ul>li:nth-child(1)>strong {padding-right:51px;}
@@ -210,6 +213,17 @@ footer .mbr {display:none;}
 .info>ul>li:nth-child(3)>strong {padding-right:40px;}
 .info>ul>li:nth-child(4)>strong {padding-right:40px;}
 .info>ul>li:nth-child(5)>strong {padding-right:65px;}
+
+
+
+#cover_nav .container3 {position:absolute; top:20%; left:50%; width:1200px; margin:0 auto;}
+
+.container3 .eduli {line-height: 1.25; font-size:16px; padding-bottom: 50px;}
+.container3 .eduli strong { padding-right: 40px;font-weight:700;font-size:20px;}
+.container3 .eduli li {font-weight: 300; } 
+
+
+
 
 
 
@@ -234,15 +248,15 @@ footer .mbr {display:none;}
     #cover_nav { position:fixed; top:0; right:0; background:rgb(255, 223, 210); width:100%; height:0; z-index:1000; overflow:hidden; transition:0.5s;}
     #cover_nav.on {height:100vh;}
     
-    #cover_nav .container {display:flex; flex-direction: column; position:absolute; top:50%; left:50%; width:100%; transform:translate(-50%,-50%);}
-    #cover_nav .container>* {flex:1; padding:0 40px;}
+    #cover_nav .container {display:flex; flex-direction: column; position:absolute; top:40%; left:50%; width:100%; transform:translate(-50%,-50%);}
+    #cover_nav .container>* {flex:1; padding:0 20px;}
     
 
     
-    #cover_nav img {width:100%; border-radius:50%; overflow:hidden;}
+    #cover_nav img {width:50%; border-radius:50%; overflow:hidden; margin-left:90px;}
     
-    #cover_nav .txt {margin:30px 0;}
-    #cover_nav hr {margin:30px 0; border:none; border-top:1px dotted #ddd;}
+    #cover_nav .txt {margin:30px 50px;}
+    /*#cover_nav hr {margin:30px 0; border:none; border-top:1px dotted #ddd;}*/
     
     #cover_nav .info {line-height: 1.25;font-size:14px; }
     #cover_nav .info strong {font-weight:500;font-size:14px;}
@@ -259,7 +273,7 @@ footer .mbr {display:none;}
     
     
     
-    #cover_nav .txt h3 {font-size: 30px; font-weight: 100; letter-spacing:1rem; margin-bottom:30px; /*text-transform:uppercase;--대문자로 변경*/}
+    #cover_nav .txt h3 {  text-align: center;font-size: 30px; font-weight: 100; letter-spacing:1rem; margin-bottom:30px; /*text-transform:uppercase;--대문자로 변경*/}
     #cover_nav .txt p {font-size: 14px; font-weight: 300; letter-spacing:-0.025rem; }
     
     #cover_nav .link li {line-height: 1.25; }
@@ -270,6 +284,19 @@ footer .mbr {display:none;}
     #cover_nav .link li:hover:before {color:aqua; margin-right:40px; }
     
     #cover_nav .link li:hover:after {content:" 바로가기 "; font-size:12px; margin-left:30px; color:#666; } 
+
+
+
+    #cover_nav .container3 {position:absolute; top:60%; left:-10%; width:100%; margin:0 auto; padding:10px 20px;}
+
+    .container3 .eduli {line-height: 1.5; font-size:16px; padding-bottom: 5px; padding:0 0 0 50px;}
+    .container3 .eduli strong { padding-right: 10px;font-weight:700;font-size:14px;}
+    .container3 .eduli li {font-weight: 300; font-size:14px; width:100%;} 
+
+    .container3 .eduli li:last-child {text-align: left;}
+    .container3 .eduli li span {padding-left:40px;}
+
+    .pf_link {display:none;}
 }
 
 
