@@ -70,6 +70,19 @@ nav li.on a:after {width:100%; background:rgb(250, 150, 150);}
 .pf06 .txt {padding:30px 0 ; }
 
 
+.pf07 .txt {text-align:center;}
+.pf07 .artworkli { width:1200px; margin:0 auto; text-align:center; }
+.pf07 .artworkli .artwork {position:relative;padding:100px 10px; position:relative;}
+
+.pf07 .arr {position:absolute; top:50%; left:50%;; font-size: 40px;cursor: pointer;}
+.pf07 .arr .xi-angle-left-min {margin-left:-600px;}
+.pf07 .arr .xi-angle-right-min {margin-left:1110px;}
+
+
+
+.pf07 .slick-dots button{display:none;}
+.pf07 .slick-dots li {display:inline-block; width:12px; height:12px; cursor: pointer;  background :#ddd; border-radius:50%; overflow:hidden;}
+.pf07 .slick-dots li.slick-active {background:rgb(250, 150, 150);}
 
 
 @media (max-width:768px) {
@@ -103,12 +116,22 @@ nav li.on a:after {width:100%; background:rgb(250, 150, 150);}
 
     .pf05 img {width:100%; height:100%;}
 
+    
     .pf06 .container {flex-direction: column;text-align: center;}
-
+    .pf06 iframe {width:60%; height:60%; padding:10px 0 ;}
+    
     .pf06 .txt {padding:30px 0 10px 0 ; }
     .pf06 figure {width:100%; height:100%;}
 
 
+
+    .pf07 .txt {text-align:center;}
+    .pf07 .artworkli { width:100%; margin:0 auto; text-align:center; }
+    .pf07 .artworkli .artwork {position:relative;padding:30px 10px; position:relative;}
+    
+
+
+    
 }
 
 
